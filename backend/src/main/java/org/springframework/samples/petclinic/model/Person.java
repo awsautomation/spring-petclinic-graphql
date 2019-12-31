@@ -36,15 +36,18 @@ public class Person extends BaseEntity {
     @NotEmpty
     protected String lastName;
 
-    public String getFirstName() {
+    public String getFirstName() 
+    {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName) {
+    public void setFirstName(String firstName) 
+    {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+    public String getLastName() 
+    {
         return this.lastName;
     }
 
