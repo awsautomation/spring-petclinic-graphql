@@ -12,7 +12,8 @@
         {
           "kind": "OBJECT",
           "name": "Query",
-          "description": "The Query type provides all entry points to the PetClinic GraphQL schema",
+          "description": 
+          "The Query type provides all entry points to the PetClinic GraphQL schema",
           "fields": [
             {
               "name": "pettypes",
@@ -64,7 +65,7 @@
             },
             {
               "name": "owners",
-              "description": "Return all known Pet Owners",
+              "description": "Return all known Pet Owner",
               "args": [],
               "type": {
                 "kind": "NON_NULL",
