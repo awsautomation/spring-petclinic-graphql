@@ -11,3 +11,4 @@ export const createGraphQLClient = () => {
 
   return client;
 };
+// 	http://dev.apollodata.com/react/initialization.html#creating-client
